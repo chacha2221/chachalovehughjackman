@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    height: 1500px;
+}
+
+.navigasi {
+    background-color: #FFE2E2;
+    width:100%;
+    height: 70px;
+    color: slategrey;
+}
+
+.logo {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.menu {
+    margin-left: 800px;
+    padding-top: 27px;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover {
+    color: #86A788;
+    font-style: italic;
+}
+
+.banner {
+    background-color: #ffcfcfb9;
+    height: 600px;
+    text-align: center;
+    color: white;
+}
+
+.banner img {
+    height: 200px;
+    border-radius: 100px;
+    border:6px solid rgb(243, 206, 206);
+    margin-top: 100px;
+}
+
+.banner h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner button {
+    margin-top: 60px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+}
+
+.box-pendidikan {
+    text-align: center;
+    color: darksalmon;
+    margin-top: 30px;
+    align-content: center;
+}
+
+.box-kiri,
+.box-tengah,
+.box-kanan {
+    width: 300px;
+    height: 320px;
+    background-color: #f0f0f0;    
+    text-align: center;
+    padding: 30px 20px;
+    margin:70px 20px 20px 55px;
+    float: left;
+}
+
+.box-kiri:hover,
+.box-tengah:hover,
+.box-kanan:hover {
+    background-color: antiquewhite;
+    color: lightpink;
+}
+
+.myskills {
+    text-align: center;
+    color: #E69DB8;
+    margin-top: 90px;
+}
+
+.skill-kiri,
+.skill-tengah,
+.skill-kanan {
+    width: 300px;
+    height: 320px;
+    background-color: #FFD0C7;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 70px 20px 20px 55px;
+    float: left;
+}
+
+.skill-kiri:hover,
+.skill-tengah:hover,
+.skill-kanan:hover {
+    background-color: #FFFECE;
+    color: #F1E7E7;
+}
+
+.box-kontak {
+    text-align: center;
+    color: #E69DB8;
+    margin-top: 600px;
+}
+
+.box-kontak img {
+    width: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
